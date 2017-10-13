@@ -5,7 +5,7 @@ artifactoryToUserInput = userInput (
 )
 
 artifactory(artifactoryToUserInput.name) {
-  localRepository("example-repo-local") {
+  localRepository("example-repo-local-2") {
     replication(artifactoryToUserInput) {
       username artifactoryToUserInput.credentials.userName
       password artifactoryToUserInput.credentials.password
