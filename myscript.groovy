@@ -1,7 +1,0 @@
-artifactory('MyLocal') {
-
-localRepository('repo') {
-}
-
-
-}
