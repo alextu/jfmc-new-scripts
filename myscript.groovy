@@ -1,0 +1,7 @@
+artifactory('MyLocal') {
+
+localRepository('repo') {
+}
+
+
+}
