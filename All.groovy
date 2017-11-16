@@ -1,5 +1,5 @@
 //SERVICE_NAME should be match to org.jfrog.mc.api.ui.resource.ScriptResourceIntegrationTest.SERVICE_NAME
-zzz
+zzzzzz
 def SERVICE_NAME = 'Local'
 
 def service = services[SERVICE_NAME]
