@@ -42,7 +42,7 @@ if (replicationType == "pull") {
                 url replicationUrl
                 packageType packagetype
 
-                replication (replicationUrl) {
+                replication(replicationUrl) {
                     cronExp "0 0/9 14 * * ?"
                     socketTimeoutMillis 15000
                     username "remote-repo-user"
