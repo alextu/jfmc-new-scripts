@@ -1,1 +1,2 @@
-Not empty but invalid
+artifactory() {
+}
