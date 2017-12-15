@@ -1,4 +1,4 @@
-artifactory('arti-8081'){
+artifactory('Old'){
    remoteRepository ("maven-remote") {
      packageType "maven"
      description "My maven repo"
