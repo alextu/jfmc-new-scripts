@@ -10,7 +10,7 @@ artifactory('Art1') {
       anyDistribution false
       repositories (["npm-local", "docker-local"])
       groups {
-        "itz"(['manage', 'delete', 'deploy', 'annotate', 'read'])
+        "itzz"(['manage', 'delete', 'deploy', 'annotate', 'read'])
       }
     }
   }
