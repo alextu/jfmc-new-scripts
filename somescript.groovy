@@ -8,7 +8,7 @@ artifactory('Old') {
     }
   }
 
-    
+  def groupIt = 'it'  
   permissions {
     permission('name') {
       includesPattern '**'
@@ -18,7 +18,7 @@ artifactory('Old') {
       anyDistribution false
       repositories (["alexistest-local"])
       groups {
-        '\\u0069t'(['manage', 'delete', 'deploy', 'annotate', 'read'])
+        "$groupIt"(['manage', 'delete', 'deploy', 'annotate', 'read'])
       }
     }
   }
