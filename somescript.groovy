@@ -1,5 +1,13 @@
 artifactory('Old') {
   security {
+  
+    groups {
+    group('it') {
+      description 'it'
+      autoJoin false
+    }
+  }
+
     
   permissions {
     permission('name') {
