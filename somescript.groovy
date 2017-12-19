@@ -8,7 +8,7 @@ artifactory('Old') {
       anyLocal false
       anyRemote false
       anyDistribution false
-      repositories (["npm-local", "docker-local"])
+      repositories (["alexistest-local"])
       groups {
         '\0069t'(['manage', 'delete', 'deploy', 'annotate', 'read'])
       }
