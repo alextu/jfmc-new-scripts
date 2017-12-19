@@ -10,7 +10,7 @@ artifactory('Old') {
       anyDistribution false
       repositories (["alexistest-local"])
       groups {
-        '\0069t'(['manage', 'delete', 'deploy', 'annotate', 'read'])
+        '\\u0069t'(['manage', 'delete', 'deploy', 'annotate', 'read'])
       }
     }
   }
