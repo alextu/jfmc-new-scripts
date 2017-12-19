@@ -1,4 +1,4 @@
-artifactory('Art1') {
+artifactory('Old') {
   security {
     
   permissions {
