@@ -1,4 +1,4 @@
-artifactory('Old') {
+artifactory('Oldz') {
   security {
   
     groups {
