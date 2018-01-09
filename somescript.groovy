@@ -1,4 +1,4 @@
-artifactory('Oldz') {
+artifactory('Lohika') {
   security {
   
     groups {
