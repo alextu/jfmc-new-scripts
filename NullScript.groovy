@@ -3,6 +3,8 @@ variable = userInput (
     type : "ARTIFACTORY", // "BOOLEAN", "INTEGER", "SERVICE", "XRAY", "EDGE", "ARTIFACTORY", "REPOSITORY", "PACKAGE_TYPE"
     value : "",
     description : "please provide a value"
+  
+  
   )
 
 
