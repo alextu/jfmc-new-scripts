@@ -6,4 +6,4 @@ artis = userInput (
     multivalued: true
   )
 
-println "${artis}"
+println "${artis*.name}"
