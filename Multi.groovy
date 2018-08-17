@@ -5,3 +5,5 @@ artis = userInput (
     description : "please provide a value",
     multivalued: true
   )
+
+println "${artis}"
