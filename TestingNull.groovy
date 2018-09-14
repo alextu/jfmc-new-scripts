@@ -19,11 +19,9 @@ security {
       repositories (["chef-local", "cran-local"] + additionnalRepos*.key) // values (["local-rep1", "local-rep2", ...]) are examples. Please set existing values from the instance 
       users {
         
-        'userA' (['delete', 'manage', 'annotate', 'read', 'deploy']) // value userA - is example. Please set existing user names from the instance 
+        'roger' (['delete', 'manage', 'annotate', 'read', 'deploy']) // value userA - is example. Please set existing user names from the instance 
       }
-      groups {
-        'groupsG1' (['delete', 'manage', 'annotate', 'read', 'deploy']) // value groupsG1 - is example. Please set existing group names from the instance 
-      }
+    
     }
   }
 
