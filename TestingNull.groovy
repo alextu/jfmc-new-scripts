@@ -16,7 +16,7 @@ security {
       anyRemote false
       anyDistribution false
       
-      repositories (["chef-local", "cran-local"] + additionnalRepos*.name) // values (["local-rep1", "local-rep2", ...]) are examples. Please set existing values from the instance 
+      repositories (["chef-local", "cran-local"] + additionnalRepos*.key) // values (["local-rep1", "local-rep2", ...]) are examples. Please set existing values from the instance 
       users {
         
         'userA' (['delete', 'manage', 'annotate', 'read', 'deploy']) // value userA - is example. Please set existing user names from the instance 
